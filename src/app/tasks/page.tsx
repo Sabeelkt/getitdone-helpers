@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useSession } from "@/lib/auth-client";
-import { TaskBoard } from "@/components/TaskBoard";
+import TaskBoard from "@/components/TaskBoard";
 import { Loader2 } from "lucide-react";
 
 export default function TasksPage() {
